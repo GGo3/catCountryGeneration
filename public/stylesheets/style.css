@@ -1,0 +1,85 @@
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+.main__inner {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.main {
+  margin: 0;
+  height: 100%;
+  width: 90%; }
+
+.loader {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px; }
+
+.loader img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px; }
+
+p {
+  text-transform: capitalize; }
+
+.coutry__sidebar {
+  width: 10%; }
+
+.countrys {
+  display: flex;
+  flex-direction: column; }
+
+.coutry__card {
+  border: 3px solid black;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px; }
+
+.coutry__header {
+  display: flex;
+  height: 80px; }
+
+.coutry__card-title {
+  font-size: 20px; }
+
+.coutry__card-flag {
+  width: 130px;
+  height: 70px;
+  margin-left: 50px; }
+
+.country__body {
+  margin-top: 20px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: scroll; }
+
+.cat__card {
+  border: 1px solid black;
+  height: 180px;
+  padding: 10px;
+  margin-left: 5px; }
+
+.cat__card-title {
+  color: #fc5603; }
+
+.cat__card-img {
+  margin-top: 5px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid black; }
+
+/*# sourceMappingURL=style.css.map */
